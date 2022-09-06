@@ -3,6 +3,17 @@ package com.epam.mjc.stage0;
 import com.epam.mjc.stage0.utils.Fridge;
 
 public class FridgeAlgorithm {
+    void open() {
+
+    }
+
+    void getMilk() {
+
+    }
+
+    void close() {
+
+    }
 
     /**
      * This is a first task in this module. You need to get milk from a fridge =)
@@ -11,6 +22,7 @@ public class FridgeAlgorithm {
      * P.S All methods of interaction with the fridge can be found inside the {@see Fridge} class.
      */
     public void fridgeAlgorithm(Fridge fridge) {
+
 
     }
 }
