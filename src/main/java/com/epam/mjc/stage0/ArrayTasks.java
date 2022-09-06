@@ -11,7 +11,7 @@ public class ArrayTasks {
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
     public String[] seasonsArray() {
-        var seasons = new String[]{"Winter", "Spring", "Summer", "Fall"};
+        var seasons = new String[]{"Winter", "Spring", "Summer", "Autumn"};
         return seasons;
     }
 
@@ -40,7 +40,7 @@ public class ArrayTasks {
      */
     public int totalSum(int[] arr) {
         int sum = 0;
-        for (int i = 0; i <= arr.length; i ++) {
+        for (int i = 0; i <= arr.length - 1; i ++) {
             sum = sum + arr[i];
         }
         return sum;
@@ -57,7 +57,7 @@ public class ArrayTasks {
      */
     public int findIndexOfNumber(int[] arr, int number) {
         int res = 0;
-        for (int i = 0; i <= arr.length; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             if (arr[i] == number) {
                 res = i;
             }else {
@@ -100,7 +100,7 @@ public class ArrayTasks {
      */
     public int[] getOnlyPositiveNumbers(int[] arr) {
         int[] newArr = new int[arr.length];
-        for (int i = 0; i <= arr.length; i++) {
+        for (int i = 0; i <= arr.length - 1; i++) {
             if(arr[i] > 0) {
                 newArr[i] = arr [i];
             }
